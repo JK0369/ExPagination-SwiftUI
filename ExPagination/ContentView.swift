@@ -36,6 +36,7 @@ struct ContentView: View {
               EmptyView()
             },
             label: {
+              // 아래 HStack 하위에 getRowView(photo:)가 label 역할을 하므로, 여기는 EmptyView() 사용 필수
               EmptyView()
             }
           )
