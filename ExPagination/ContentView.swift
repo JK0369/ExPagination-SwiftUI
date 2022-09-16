@@ -32,6 +32,7 @@ struct ContentView: View {
         ZStack {
           NavigationLink(
             destination: {
+              // EmptyView는 테스트를 위해 넣은것이고, 별도의 DetailView() 정의하여 이곳에 사용할것
               EmptyView()
             },
             label: {
